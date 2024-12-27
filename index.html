@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMaster - Learn Programming</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CodeMaster</div>
+            <ul>
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <section id="hero" class="section">
+            <div class="hero-content">
+                <h1>Master Programming<br>The Easy Way</h1>
+                <p class="hero-subtitle">Learn C++, C, Python, and Java through interactive lessons and real-world projects</p>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <i class="fas fa-code"></i>
+                        <span>Interactive Code Editor</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-video"></i>
+                        <span>HD Video Tutorials</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certification</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="cta-button">Start Learning Free</button>
+                    <button class="cta-button secondary">View Courses</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50K+</h3>
+                        <p>Active Students</p>
+                    </div>
+                    <div class="stat">
+                        <h3>200+</h3>
+                        <p>Video Lessons</p>
+                    </div>
+                    <div class="stat">
+                        <h3>4.8/5</h3>
+                        <p>Student Rating</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <h2>Why Choose CodeMaster?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Interactive Learning</h3>
+                    <p>Practice coding directly in your browser with our built-in IDE</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Real Projects</h3>
+                    <p>Build portfolio-worthy projects as you learn</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Active Community</h3>
+                    <p>Connect with other learners and get help when needed</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="section">
+            <h2>Languages You'll Master</h2>
+            <div class="language-grid">
+                <div class="language-card">
+                    <i class="fas fa-code"></i>
+                    <h3>C++</h3>
+                    <p>Master object-oriented programming and system development</p>
+                </div>
+                <div class="language-card">
+                    <i class="fas fa-code"></i>
+                    <h3>C</h3>
+                    <p>Learn low-level programming and memory management</p>
+                </div>
+                <div class="language-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Build applications with the most beginner-friendly language</p>
+                </div>
+                <div class="language-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Create cross-platform applications and Android apps</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="section">
+            <div class="pricing-container">
+                <h2>Choose Your Learning Path</h2>
+                <p class="pricing-subtitle">Start with our free plan or unlock all features with Pro</p>
+                
+                <div class="pricing-toggle">
+                    <span>Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="billing-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span>Yearly <span class="save-badge">Save 20%</span></span>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h3>Free</h3>
+                            <div class="price">$0</div>
+                            <p>Perfect for beginners</p>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Access to Basic Tutorials</li>
+                            <li><i class="fas fa-check"></i> Community Support</li>
+                            <li><i class="fas fa-check"></i> Basic Code Editor</li>
+                            <li><i class="fas fa-check"></i> 5 Practice Projects</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Advanced Tutorials</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Code Reviews</li>
+                        </ul>
+                        <button class="pricing-btn">Start Free</button>
+                    </div>
+
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="card-header">
+                            <h3>Pro</h3>
+                            <div class="price">$19<span>/month</span></div>
+                            <p>For serious developers</p>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> All Free Features</li>
+                            <li><i class="fas fa-check"></i> Advanced Tutorials</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Advanced Code Editor</li>
+                            <li><i class="fas fa-check"></i> Unlimited Projects</li>
+                            <li><i class="fas fa-check"></i> Monthly Code Reviews</li>
+                            <li><i class="fas fa-check"></i> Career Guidance</li>
+                            <li><i class="fas fa-check"></i> Certificate of Completion</li>
+                        </ul>
+                        <button class="pricing-btn premium">Go Pro</button>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h3>Team</h3>
+                            <div class="price">$49<span>/month</span></div>
+                            <p>For teams & organizations</p>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> All Pro Features</li>
+                            <li><i class="fas fa-check"></i> Team Management</li>
+                            <li><i class="fas fa-check"></i> Custom Learning Paths</li>
+                            <li><i class="fas fa-check"></i> API Access</li>
+                            <li><i class="fas fa-check"></i> Progress Analytics</li>
+                            <li><i class="fas fa-check"></i> Dedicated Support</li>
+                        </ul>
+                        <button class="pricing-btn">Contact Sales</button>
+                    </div>
+                </div>
+
+                <div class="pricing-faq">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h4>Can I switch plans later?</h4>
+                            <p>Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Is there a refund policy?</h4>
+                            <p>We offer a 30-day money-back guarantee for all paid plans. No questions asked.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Do you offer student discounts?</h4>
+                            <p>Yes! Students can get 50% off Pro plans with a valid student email.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CodeMaster. All rights reserved.</p>
+    </footer>
+</body>
+</html>
